@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="model.css">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="media_model.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="hamburger_menu" id="hamburger_menu-id">
+                <div class="hamburger_menu-line"></div>
+                <div class="hamburger_menu-line"></div>
+                <div class="hamburger_menu-line"></div>
+            </div>
+            <div class="menu_body" id="menu_body-id">
+                <a href="audi.html">audi</a>
+                <a href="mercedes.html">mercedes</a>
+                <a href="bmw.html">bmw</a>
+                <a href="">машины</a>
+                <a href="landing.html">главная</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.0251897334539!2d37.62298205199459!3d55.75892172138769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5b0ae86ff9%3A0xb3c0cb2ae04ac628!2z0KLQtdCw0YLRgNCw0LvRjNC90YvQuSDQv9GALdC0LCAyLCDQnNC-0YHQutCy0LAsIDEwOTAxMg!5e0!3m2!1sru!2sru!4v1701173642313!5m2!1sru!2sru" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="model_form">
+            <div>
+                <div>
+                    <h2 class="model_form-title">Свяжитесь с нами</h2>
+                    <p class="model_form-text">Заполните эту форму, чтобы связаться с нами. Мы здесь, чтобы ответить на любые ваши вопросы и предоставить вам наилучшие услуги автосалона</p>
+                </div>
+                <form method="post" class="model_form-form">
+                    <label for="u_name">Имя
+                        <input name="u_name" type="text" id="u_name" class="model_form-form--input">
+                    </label>
+                    <label for="u_email">Почта
+                        <input name="u_email" type="email" id="u_email" class="model_form-form--input">
+                    </label>
+                    <label for="u_message">Сообщение
+                        <textarea name="u_message" id="u_message" class="model_form-form--textarea" rows="4"></textarea>
+                    </label>
+                    <button type="submit" class="model_form-form--button">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h5 class="footer-name">SelectRide Exclusives</h5>
+        <div>
+            <a href="">
+                <img src="images/icons8-facebook-messenger-192.png" alt="facebook" class="footer-img">
+            </a>
+            <a href="">
+                <img src="images/icons8-twitter-192.png" alt="twitter" class="footer-img">
+            </a>
+            <a href="">
+                <img src="images/icons8-youtube-192.png" alt="youtube" class="footer-img">
+            </a>
+        </div>
+        <a href="contacts.html" class="footer-link">Контакты</a>
+    </footer>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

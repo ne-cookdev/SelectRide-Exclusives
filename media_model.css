@@ -1,0 +1,235 @@
+@media (min-width: 600px) {
+    .model_welcome-link {
+        display: inline-block;
+    }
+
+    .model_welcome-text {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .model_packages-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .model_packages-card:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    .model_services-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .model_services-card:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        font-size: 1.1em;
+    }
+
+    footer > div {
+        justify-self: flex-end;
+    }
+
+    footer > a {
+        grid-column: span 2;
+        justify-self: flex-end;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav {
+        height: 50px;
+    }
+
+    .hamburger_menu-line {
+        width: 40px;
+    }
+
+    .model_packages-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .model_packages-card:nth-child(3) {
+        grid-column: span 1;
+    }
+
+    .model_services-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .model_services-card:nth-child(3) {
+        grid-column: span 1;
+    }
+
+    .model_showroom {
+        flex-direction: row;
+        justify-content: center;
+        grid-gap: 50px;
+    }
+
+    .model_showroom-img {
+        width: 50%;
+        max-width: 700px;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 0;
+    }
+
+    .model_sales {
+        flex-direction: row;
+        justify-content: center;
+        grid-gap: 50px;
+    }
+
+    .model_sales-img {
+        width: 50%;
+        max-width: 700px;
+        height: auto;
+        object-fit: cover;
+        margin-top: 0;
+    }
+
+    .model_form > div {
+        max-width: none;
+        display: grid;
+        max-width: 1200px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .model_welcome-text {
+        font-size: 1.1em;
+    }
+
+    .model_welcome-link {
+        font-size: 1.3em;
+    }
+
+    .model_packages-title {
+        font-size: 2em;
+    }
+
+    .model_services-title {
+        font-size: 2em;
+    }
+
+    .model_showroom-title {
+        font-size: 1.8em;
+    }
+
+    .model_showroom-text {
+        font-size: 1.1em;
+    }
+
+    .model_sales-title {
+        margin-top: 0;
+        font-size: 1.8em;
+    }
+
+    .model_sales-text {
+        font-size: 1.1em;
+    }
+
+    .model_form-title {
+        margin-top: 0;
+        font-size: 1.8em;
+    }
+
+    .model_form-text {
+        font-size: 1.1em;
+    }
+
+    .model_form-form > label {
+        font-size: 1em;
+    }
+
+    .model_form-form--button {
+        font-size: 1.05em;
+        width: 110px;
+        height: 35px;
+    }
+
+    .footer-img {
+        height: 30px;
+    }
+}
+
+@media (min-width: 1500px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .model_welcome-text {
+        font-size: 1.2em;
+    }
+
+    .model_welcome-link {
+        font-size: 1.4em;
+    }
+
+    .model_packages-title {
+        font-size: 2.3em;
+    }
+
+    .model_packages-card--title {
+        font-size: 1.5em;
+    }
+
+    .model_packages-card--text {
+        font-size: 1.1em;
+    }
+
+    .model_services-title {
+        font-size: 2.3em;
+    }
+
+    .model_showroom-title {
+        font-size: 2.3em;
+    }
+
+    .model_showroom-text {
+        font-size: 1.15em;
+    }
+
+    .model_sales-title {
+        margin-top: 0;
+        font-size: 2.3em;
+    }
+
+    .model_sales-text {
+        font-size: 1.15em;
+    }
+
+    .model_form-title {
+        margin-top: 0;
+        font-size: 2.3em;
+    }
+
+    .model_form-text {
+        font-size: 1.15em;
+    }
+
+    .model_form-form > label {
+        font-size: 1.05em;
+    }
+
+    .model_form-form--button {
+        font-size: 1.1em;
+        width: 120px;
+        height: 40px;
+    }
+
+    .footer-img {
+        height: 35px;
+    }
+}

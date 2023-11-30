@@ -1,0 +1,99 @@
+@media (min-width: 750px) {
+    .welcome_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .welcome_menu {
+        display: flex;
+    }
+
+    header {
+        display: none;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        font-size: 1.1em;
+    }
+
+    footer > div {
+        justify-self: flex-end;
+    }
+
+    footer > a {
+        grid-column: span 2;
+        justify-self: flex-end;
+    }
+}
+
+@media (min-width: 800px) {
+    .why_we_content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        max-width: 800px;
+    }
+
+    .why_we_content-header {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+    }
+
+    .why_we_content-body {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background: linear-gradient(90deg, rgba(40, 40, 40, 1) 0%, rgba(34, 34, 34, 1) 30%);
+    }
+
+    .explain_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1250px) {
+    .explain_section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1700px) {
+    .why_we_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .explain_section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(max-height: 700px) {
+    .welcome_content {
+        height: 85%;
+    }
+
+    .welcome_content-slogan {
+        font-size: 2em;
+    }
+
+    .welcome_content-slogan--link---text {
+        font-size: 1.3em;
+    }
+
+    .welcome_content-image {
+        height: 250px;
+    }
+
+    .welcome_content-image--wheel {
+        top: 129px;
+        left: 86px;
+        height: 103px;
+    }
+}
+
+@media(max-height: 500px) {
+    .welcome_section-name--text {
+        font-size: 2.7em;
+    }
+}
