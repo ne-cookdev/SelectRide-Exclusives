@@ -1,0 +1,47 @@
+@media(min-width: 450px) {
+    .cards_section-card--body > h4 {
+        font-size: 1.4em;
+    }
+
+    .cards_section-card--body > span {
+        font-size: 0.9em;
+    }
+
+    .cards_section-card--body---info > div {
+        font-size: 1.1em;
+    }
+
+    .cards_section-card--body---availability > span {
+        font-size: 0.9em;
+    }
+
+    .cards_section-card--body---price > p {
+        font-size: 1.6em;
+    }
+
+    .cards_section-card--body---price > span {
+        font-size: 1.1em;
+    }
+
+    .cards_section-card--body---geo > span {
+        font-size: 0.9em;
+    }
+}
+
+@media(min-width: 700px) {
+    .cards_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 1250px) {
+    .cards_section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width: 1600px) {
+    .cards_section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

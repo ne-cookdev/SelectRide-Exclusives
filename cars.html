@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Авто</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cars.css">
+    <link rel="stylesheet" href="model.css">
+    <link rel="stylesheet" href="media_model.css">
+    <link rel="stylesheet" href="media_cars.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="hamburger_menu" id="hamburger_menu-id">
+                <div class="hamburger_menu-line"></div>
+                <div class="hamburger_menu-line"></div>
+                <div class="hamburger_menu-line"></div>
+            </div>
+            <div class="menu_body" id="menu_body-id">
+                <a href="audi.html">audi</a>
+                <a href="mercedes.html">mercedes</a>
+                <a href="bmw.html">bmw</a>
+                <a href="landing.html">главная</a>
+                <a href="contacts.html">контакты</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Автомобили</h1>
+        <section class="filters_section">
+            <h2>Фильтры</h2>
+            <form id="filters_form">
+                <div class="filters_form-wrapper">
+                    <div class="filters_section-type">
+                        <h3>Марка</h3>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="audi" name="audi" value="audi" checked>
+                            <label for="audi">Audi</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="mercedes" name="mercedes" value="mercedes" checked>
+                            <label for="mercedes">Mercedes</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="bmw" name="bmw" value="bmw" checked>
+                            <label for="bmw">Bmw</label>
+                        </div>
+                    </div>
+                    <div class="filters_section-type">
+                        <h3>Двигатель</h3>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="gasoline" name="бензин" value="бензин" checked>
+                            <label for="gasoline">Бензин</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="diesel" name="дизель" value="дизель" checked>
+                            <label for="diesel">Дизель</label>
+                        </div>
+                    </div>
+                    <div class="filters_section-type">
+                        <h3>Коробка</h3>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="auto" name="акпп" value="акпп" checked>
+                            <label for="auto">АКПП</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="manual" name="мкпп" value="мкпп" checked>
+                            <label for="manual">МКПП</label>
+                        </div>
+                    </div>
+                    <div class="filters_section-type">
+                        <h3>Расход</h3>
+                        <div class="filters_section-type--div">
+                            <label for="consumption_from">От:</label>
+                            <input type="number" class="filters_section-input" id="consumption_from" name="consumption_from" placeholder="5л.">
+                        </div>
+                        <div class="filters_section-type--div">
+                            <label for="consumption_to">До:</label>
+                            <input type="number" class="filters_section-input" id="consumption_to" name="consumption_to" placeholder="11л.">
+                        </div>
+                    </div>
+                    <div class="filters_section-type">
+                        <h3>Пробег</h3>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="new" name="новый" value="новый" checked>
+                            <label for="new">Новый</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="filters_section-checkbox" id="used" name="км" value="км">
+                            <label for="used" style="white-space: nowrap;">С пробегом</label>
+                        </div>
+                    </div>
+                    <div class="filters_section-type">
+                        <h3>Стоимость</h3>
+                        <div class="filters_section-type--div">
+                            <label for="price_from">От:</label>
+                            <input type="number" class="filters_section-input" id="price_from" name="price_from" placeholder="1 500 000 ₽">
+                        </div>
+                        <div class="filters_section-type--div">
+                            <label for="price_to">До:</label>
+                            <input type="number" class="filters_section-input" id="price_to" name="price_to" placeholder="22 700 000 ₽">
+                        </div>
+                    </div>
+                    <div class="filters_section-type">
+                        <h3>Фильтры</h3>
+                        <button type="submit">Применить</button>
+                        <button type="reset">Сбросить</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="cards_section" id="cards_section-id"></section>
+    </main>
+    <footer>
+        <h5 class="footer-name">SelectRide Exclusives</h5>
+        <div>
+            <a href="">
+                <img src="images/icons8-facebook-messenger-192.png" alt="facebook" class="footer-img">
+            </a>
+            <a href="">
+                <img src="images/icons8-twitter-192.png" alt="twitter" class="footer-img">
+            </a>
+            <a href="">
+                <img src="images/icons8-youtube-192.png" alt="youtube" class="footer-img">
+            </a>
+        </div>
+        <a href="contacts.html" class="footer-link">Контакты</a>
+    </footer>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aaa" width="1em" height="1em" style="display: none; flex-shrink: 0; font-size: 1em; line-height: 1em;">
+        <path id="icone_0" fill-rule="evenodd" d="M7.996 5C12 4.99 14.333 4.99 15 5v3h-2v1h2l1 2h1l1-2h2v10h-1.983L17 17h-1l-1 2H7.996L7 17H4v-7h3V9h3.001V8H7.996V5ZM14 6H9v1h2v3H8v1H5v5h2.75l1 2h5.38l1.12-2h2.5l1.04 2H19v-8h-.25l-1 2h-2.5l-1-2H12V7h2V6Z" clip-rule="evenodd"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aaa" width="1em" height="1em" style="display: none; flex-shrink: 0; font-size: 1em; line-height: 1em;">
+        <path id="icone_1" fill-rule="evenodd" d="M18.004 4.965h.699c.712 0 1.291.58 1.291 1.291v.377c0 .712-.58 1.291-1.291 1.291h-.699a1.41 1.41 0 0 1-1.361 1.048h-.575v11.179c0 1.02-.83 1.849-1.85 1.849h-1.417c-1.02 0-1.85-.83-1.85-1.85V8.973h-.575a1.409 1.409 0 0 1-1.407-1.407v-2.24c0-.776.63-1.408 1.407-1.408h.576V3.85C10.952 2.83 11.78 2 12.8 2h1.417c1.02 0 1.85.83 1.85 1.85v.067h.575a1.41 1.41 0 0 1 1.361 1.048Zm-7.803 2.6c0 .096.079.174.175.174h3.592V5.15h-3.592a.175.175 0 0 0-.175.175v2.24Zm4.017 13.202c.34 0 .617-.276.617-.616V8.972h-2.65v11.179c0 .34.276.616.616.616h1.417Zm.366-16.85h.25V3.85a.617.617 0 0 0-.616-.616h-1.417a.617.617 0 0 0-.616.616v.068h2.4Zm2.059 3.822a.175.175 0 0 0 .175-.174v-2.24a.175.175 0 0 0-.175-.175H15.2v2.59h1.443Zm2.06-1.048a.059.059 0 0 0 .058-.058v-.377a.058.058 0 0 0-.058-.058h-.653v.493h.653ZM5.555 4.116h1.13a1.37 1.37 0 0 1 1.368 1.369 1.37 1.37 0 0 1-1.369 1.368H6.11v.53a.555.555 0 1 1-1.11 0V4.671c0-.306.248-.555.555-.555Zm.555 1.628h.574a.26.26 0 0 0 0-.518H6.11v.518Zm1.388 7.23a.555.555 0 0 0-.555.554v.985l-.937-1.308C5.693 12.768 5 12.99 5 13.528v2.712a.555.555 0 1 0 1.11 0v-.985l.937 1.308c.313.438 1.006.217 1.006-.323v-2.712a.555.555 0 0 0-.555-.555ZM5.555 17.4h1.114c.763 0 1.384.62 1.384 1.384v1.054c0 .763-.621 1.384-1.384 1.384H5.555A.555.555 0 0 1 5 20.668v-2.712c0-.307.248-.555.555-.555Zm1.114 2.712a.275.275 0 0 0 .274-.274v-1.054a.275.275 0 0 0-.274-.274h-.56v1.602h.56Zm.015-11.568h-1.13A.555.555 0 0 0 5 9.1v2.712a.555.555 0 1 0 1.11 0v-.53h.168l.806.9a.555.555 0 1 0 .827-.74L7.515 11a1.367 1.367 0 0 0-.83-2.455Zm0 1.627H6.11v-.517h.574a.26.26 0 0 1 0 .517ZM9.725 11.2h-.39a.473.473 0 0 1 0-.945h.39a.473.473 0 0 1 0 .945Zm0 4.219a.472.472 0 1 0 0-.946h-.39a.473.473 0 1 0 0 .946h.39Zm-.25 3.366h.39a.473.473 0 0 1 0 .946h-.39a.473.473 0 1 1 0-.946Z" clip-rule="evenodd"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aaa" width="1em" height="1em" style="display: none; flex-shrink: 0; font-size: 1em; line-height: 1em;">
+        <path id="icone_2" fill-rule="evenodd" d="m18.187 4.146.938 1.84a.587.587 0 0 1 .065.267v6.683a2.956 2.956 0 0 1-2.953 2.953h-.952v2.25a1.444 1.444 0 0 1 1.104 1.402v.872a.587.587 0 0 1-.587.587H4.587A.587.587 0 0 1 4 20.413v-.872c0-.679.472-1.25 1.104-1.402V4.817A1.82 1.82 0 0 1 6.921 3h6.921c.795 0 1.442.647 1.442 1.442v10.273h.953a1.78 1.78 0 0 0 1.779-1.779V10.97h-1.391a.587.587 0 0 1-.587-.587v-1.92c0-1.143.75-2.114 1.784-2.448l-.68-1.335a.587.587 0 1 1 1.045-.534ZM6.92 4.174a.644.644 0 0 0-.643.643V18.1h7.833V4.442a.269.269 0 0 0-.269-.268h-6.92ZM5.174 19.54v.285h10.04v-.285a.268.268 0 0 0-.268-.268H5.442a.269.269 0 0 0-.268.268Zm12.038-9.745h.804V7.198a1.4 1.4 0 0 0-.804 1.266v1.332ZM7.879 4.608h4.63c.594 0 1.076.483 1.076 1.077v2.488c0 .594-.482 1.076-1.076 1.076H7.88a1.077 1.077 0 0 1-1.076-1.076V5.684c0-.593.483-1.076 1.076-1.076Zm.098 3.467h4.434V5.782H7.978v2.293Z" clip-rule="evenodd"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aaa" width="1em" height="1em" style="display: none; flex-shrink: 0; font-size: 1em; line-height: 1em;">
+        <path id="icone_3" d="M16.308 8.273h1.077c.89 0 1.615-.71 1.615-1.582V4.582C19 3.71 18.275 3 17.385 3h-1.077c-.891 0-1.616.71-1.616 1.582v.527h-1.176A1.617 1.617 0 0 0 12 4.075c-.694 0-1.288.431-1.516 1.034H9.308v-.527C9.308 3.71 8.583 3 7.692 3H6.615C5.725 3 5 3.71 5 4.582v2.11c0 .872.725 1.581 1.615 1.581h1.077c.891 0 1.616-.71 1.616-1.582v-.527h1.162c.16.458.527.823.992.984v9.744a1.607 1.607 0 0 0-.978.944H9.308v-.527c0-.873-.725-1.582-1.616-1.582H6.615c-.89 0-1.615.71-1.615 1.582v2.109C5 20.29 5.725 21 6.615 21h1.077c.891 0 1.616-.71 1.616-1.582v-.527h1.162c.217.624.82 1.074 1.53 1.074.71 0 1.313-.45 1.53-1.074h1.162v.527c0 .872.725 1.582 1.616 1.582h1.077c.89 0 1.615-.71 1.615-1.582v-2.11c0-.872-.725-1.581-1.615-1.581h-1.077c-.891 0-1.616.71-1.616 1.582v.527h-1.176a1.608 1.608 0 0 0-.977-.944V7.148c.465-.162.832-.526.99-.984h1.163v.527c0 .873.725 1.582 1.616 1.582ZM12 5.13c.297 0 .539.237.539.528 0 .29-.242.527-.539.527a.534.534 0 0 1-.539-.527c0-.291.242-.528.539-.528Zm0 13.782a.534.534 0 0 1-.539-.528c0-.29.242-.527.539-.527.297 0 .539.236.539.527 0 .291-.242.528-.539.528Z"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aaa" width="1em" height="1em" style="display: none; flex-shrink: 0; font-size: 1em; line-height: 1em;">
+        <path id="icone_4" fill-rule="evenodd" d="m7.74 21-.119-.067A9.054 9.054 0 0 1 3 13.031C3 8.051 7.037 4 12 4s9 4.051 9 9.031c0 3.281-1.77 6.309-4.621 7.902l-.12.067H7.74Zm12.205-7.969c0-4.394-3.564-7.969-7.945-7.969s-7.945 3.575-7.945 7.97C4.055 15.88 5.553 18.576 8 20h7.969c2.446-1.423 3.976-4.12 3.976-6.969ZM8.982 16.788 7.49 18.29a1.443 1.443 0 0 0-.122-.126c-.494-.48-2.259-2.199-2.259-5.134 0-3.813 3.108-6.906 6.891-6.906 3.787 0 6.89 3.097 6.89 6.906 0 2.943-1.756 4.647-2.255 5.131-.066.065-.11.107-.125.129l-1.492-1.503.746-.752.729.735a5.82 5.82 0 0 0 1.32-3.209H16.78V12.5h1.03a5.82 5.82 0 0 0-1.325-3.202l-.722.728-.746-.751.721-.727a5.806 5.806 0 0 0-3.212-1.336V8.25h-1.054V7.212A5.805 5.805 0 0 0 8.26 8.548l.72.727-.745.751-.722-.728A5.822 5.822 0 0 0 6.188 12.5h1.03v1.063h-1.03a5.817 5.817 0 0 0 1.319 3.208l.729-.735.746.752Zm4.51-3.226h2.235V12.5H13.49A1.585 1.585 0 0 0 12 11.437a1.59 1.59 0 0 0-1.582 1.594c0 .879.71 1.594 1.582 1.594.688 0 1.274-.444 1.491-1.063Zm-2.02-.53A.53.53 0 0 1 12 12.5a.53.53 0 0 1 .527.531.53.53 0 0 1-.527.531.53.53 0 0 1-.527-.53ZM14 19v-1h-4v1h4Z" clip-rule="evenodd"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aaa" width="1em" height="1em" style="display: none; flex-shrink: 0; font-size: 1em; line-height: 1em;">
+        <path id="icone_5" fill-rule="evenodd" d="M18 20h-1.5v-1.524c0-1.262-1.007-2.285-2.25-2.285h-4.5c-1.243 0-2.25 1.023-2.25 2.285V20H6v-1.524c0-2.104 1.679-3.81 3.75-3.81h4.5c2.071 0 3.75 1.706 3.75 3.81V20Zm-6-6.857a4.488 4.488 0 0 1-3.897-2.286 4.634 4.634 0 0 1 0-4.571A4.488 4.488 0 0 1 12 4c2.485 0 4.5 2.047 4.5 4.571 0 2.525-2.015 4.572-4.5 4.572Zm0-1.524c1.657 0 3-1.364 3-3.048 0-1.683-1.343-3.047-3-3.047S9 6.888 9 8.57c0 1.684 1.343 3.048 3 3.048Z" clip-rule="evenodd"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#aaa" width="1em" height="1em" style="display: none; flex-shrink: 0; font-size: 1em; line-height: 1em;">
+        <path id="icon_geo" d="m6.2 6.274 2.865 10.002 2.456-4.9 4.553-1.817-9.873-3.285ZM4.533 4.021l15.191 5.052a.404.404 0 0 1 .023.756l-7.055 2.816-3.574 7.132a.403.403 0 0 1-.75-.07L4.015 4.514a.402.402 0 0 1 .517-.492Z"></path>
+    </svg>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+    <script src="cars.js"></script>
+</body>
+
+</html>

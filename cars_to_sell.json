@@ -1,0 +1,258 @@
+[
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "BMW X5 M50d M Special",
+        "year": "2021",
+        "specs": {
+            "engine": "3 л., 249 л.с., Дизель",
+            "transmission": "Акпп",
+            "fuel": "9 л., смешанный",
+            "chassis": "Полный",
+            "odo": "49 895 км",
+            "owners": "2 владельца"
+        },
+        "price": "7 000 000",
+        "old_price": "7 200 000",
+        "place": "Театральная"
+    },
+    {
+        "photo": "audi-a7.webp",
+        "name": "Audi A8 Long",
+        "year": "2022",
+        "specs": {
+            "engine": "3 л., 349 л.с., Бензин",
+            "transmission": "Мкпп",
+            "fuel": "19 л., смешанный",
+            "chassis": "Полный",
+            "odo": "Новый",
+            "owners": "1 владельца"
+        },
+        "price": "7 100 000",
+        "old_price": "7 400 000",
+        "place": "Театральная2"
+    }
+]
