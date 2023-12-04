@@ -1,0 +1,29 @@
+footer {
+    background: #313131;
+    color: #fff;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 25px;
+}
+
+.footer-name {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0;
+}
+
+footer > div > a {
+    text-decoration: none;
+}
+
+.footer-img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+}
